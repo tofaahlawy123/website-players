@@ -1,0 +1,155 @@
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('home\ page2.jpg');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+background-attachment: fixed;
+
+
+}
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #252588;
+  
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #e7eaee;
+  min-width: 160px;
+  box-shadow: 5px 8px 16px 0px rgba(236, 230, 230, 0.2);
+
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.LEVA{
+    padding: 25px;
+    margin: 25px;
+    border:solid;
+    border-width:5px;
+    border-color:red;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:40px;
+    color:gainsboro;
+    background-image:url(alianz\ arena.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     background-size:cover;
+     color: wheat;
+     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; 
+      }
+     
+      .le{
+
+
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 40px;
+        color:gainsboro;
+        
+        color: wheat;
+         text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; 
+    
+    }
+    .lev{
+        position: relative;
+        width: 50%;
+        padding: 60px;
+        margin: 30px 40px;
+      }
+      
+      /* Make the image to responsive */
+      .image.levan {
+        width: 200%;
+        
+        height: auto;
+        border: 5px solid #555;
+        
+     
+        
+      }
+      
+      /* The overlay effect (full height and width) - lays on top of the container and over the image */
+      .rop {
+        position:absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-image: url(levaaa.jpg);
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        transform: scale(0);
+        transition: .3s ease;
+      }
+      
+      /* When you mouse over the container, the overlay text will "zoom" in display */
+      .lev:hover .rop {
+        transform: scale(1);
+      }
+      
+      /* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+      .text {
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      .sit{
+    
+    color: red;
+    
+    
+      }
+      h1{
+        width: 150px;
+        height: 150px;
+        transition: width 3s, height 3s, transform 3s;
+      
+      }
+      h1:hover {
+        width: 150px;
+        height: 300px;
+        transform: rotate(180deg);
+      }
+      
